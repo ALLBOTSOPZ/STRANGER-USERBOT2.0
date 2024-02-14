@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
 
 
 API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_HASH = getenv("API_HASH", "a259897842202ce92ba46e9c9652eb7a") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -18,7 +18,7 @@ ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/itzshukla/STRANGER-USERBOT2.0")
+REPO_URL = getenv("REPO_URL", "https://github.com/ALLBOTSOPZ/USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
