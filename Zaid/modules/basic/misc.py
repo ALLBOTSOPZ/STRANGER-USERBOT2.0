@@ -11,20 +11,20 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph/file/f5b0e7f2bd95153968e87.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 ⚡️ **\n\n"
+        f"** 👻_ #_4sᴛ 𝐎ғғɪᴄɪᴀʟ_💘 **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥-𝗪𝗢𝗥𝗟𝗗](t.me/mastiwithfriendsx)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](t.me/SHIVANSH474)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛](t.me/SHIVANSH39)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝐂ʜᴀᴛ 𝐆ʀᴘ(つ .•́ _ʖ •̀.)つ](t.me/II_4ST_FIGHTER_ll)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [4sᴛ 𝐎ғғɪᴄɪᴀʟ](t.me/I_M_FIGHTER)\n"
+        f"└• **𝐒ᴜᴘᴘᴏʀᴛᴇʀ**: [𝐌ɪɴᴅ𝐆ᴀᴍᴇʀ](t.me/ll4st_MIND_GAMERII)"        
     )
 
 @Client.on_message(
@@ -53,7 +53,7 @@ async def alive(client: Client, message: Message):
 
 @Client.on_message(filters.command("repo", ".") & filters.me)
 async def repo(bot: Client, message: Message):
-    await message.edit("⚡")
+    await message.edit("⚡, 💘, ❄, ✨")
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
